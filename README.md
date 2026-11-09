@@ -1,9 +1,9 @@
 # grep2FIP2
 - A PS script for processing grep results(Sakura Editor) for the Idea Processor Frieve Editor V3.00.
 
-# 検索結果をカード化するアイデアを整理する(日本語説明) #
-- サクラエディタのgrep検索結果をFrieve Editorで活用するためカードデータに加工するPowerShellスクリプト。
-- Frieve Editor Version 3.00(FIP2)対応版
+# 検索結果をカード化し、アイデアを整理する(日本語説明) #
+    - サクラエディタのgrep検索結果をFrieve Editorで活用するためカードデータに加工するPowerShellスクリプト。
+    - Frieve Editor Version 3.00(FIP2)対応版
 
 ## 使用するツール
 1. [サクラエディタはMS Windows上で動作する日本語テキストエディタです](https://sakura-editor.github.io/)
@@ -20,17 +20,17 @@
 
 ## grep検索結果から.fip2ファイルを生成する
 1. PowerShellで「grep2FIP2.ps1」を実行する
-```PowerShell
-./grep2FIP2.ps1
-```
-- grep検索結果ファイルのフルパスを応答する
+    ```PowerShell
+    ./grep2FIP2.ps1
+    ```
+    - grep検索結果ファイルのフルパスを応答する
 
 ## feditorでアイデアを整理する
-- .fip2ファイルを開く
-- feditorのUIを活用する
+    - .fip2ファイルを開く
+    - feditorのUIを活用する
 
 ## 以下の機能を実現するにはfeditorの変更が必要
-- 外部リンクがサクラエディタのタグジャンプの書式に従う場合は、タグジャンプする
-- インポート「フォルダ内テキスト」で外部リンクする(grepとは独立要件)
-- Viewウインドのラベル名欄を大きくする(grepとは独立要件)
+    - 外部リンクがサクラエディタのタグジャンプの書式に従う場合は、タグジャンプする
+    - インポート「フォルダ内テキスト」で外部リンクする(grepとは独立要件)
+    - Viewウインドのラベル名欄を大きくする(grepとは独立要件)
 
